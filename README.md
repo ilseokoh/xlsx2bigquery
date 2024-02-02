@@ -39,6 +39,7 @@ The date and time must be separated by a space or 'T'.
 Optionally, the date and time can be followed by a UTC offset or the UTC zone designator (Z). For more information, see Time zones.
 For example, any of the following are valid timestamp values:
 
+```
 2018-08-19 12:11
 2018-08-19 12:11:35
 2018-08-19 12:11:35.22
@@ -46,6 +47,7 @@ For example, any of the following are valid timestamp values:
 2018-07-05 12:54:00 UTC
 2018-08-19 07:11:35.220 -05:00
 2018-08-19T12:11:35.220Z
+```
 
 ```python
 job_config = bigquery.LoadJobConfig(
