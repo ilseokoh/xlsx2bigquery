@@ -1,0 +1,9 @@
+pandas
+numpy
+openpyxl
+datetime
+google-cloud
+gcsfs
+google-cloud-bigquery
+google-cloud-storage
+pyarrow
